@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Study Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">🎯 My Study Hub</div>
+  <nav id="nav">
+    <button data-tab="home" class="on">Главная</button>
+    <button data-tab="cyber">🛡️ Cyber Security</button>
+    <button data-tab="es">🇪🇸 Español</button>
+    <button data-tab="zh">🇨🇳 中文</button>
+    <button data-tab="chess">♟️ Шахматы</button>
+    <button data-tab="cube">🧊 Кубик Рубика</button>
+  </nav>
+</header>
+<main>
+  <section id="home" class="tab on"></section>
+  <section id="cyber" class="tab"></section>
+  <section id="es" class="tab"></section>
+  <section id="zh" class="tab"></section>
+  <section id="chess" class="tab"></section>
+  <section id="cube" class="tab"></section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5.0/dist/hanzi-writer.min.js"></script>
+<script src="data/audio_index.js"></script>
+<script src="common.js"></script>
+<script src="data/es_vocab.js"></script>
+<script src="games.js"></script>
+<script src="data/sp1.js"></script>
+<script src="data/sp2.js"></script>
+<script src="data/sp3.js"></script>
+<script src="data/sp_en.js"></script>
+<script src="sp-ui.js"></script>
+<script src="cyber.js"></script>
+<script src="es.js"></script>
+<script src="zh.js"></script>
+<script src="chess-app.js"></script>
+<script src="chess2.js"></script>
+<script src="cube.js"></script>
+<script>App.start();</script>
+</body>
+</html>
